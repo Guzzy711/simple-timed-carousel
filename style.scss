@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row{
+    margin:35px;
+    display: flex;
+    .col-2{
+          justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        img{
+            width:150px;
+            
+        }
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
